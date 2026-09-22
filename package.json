@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "review:build": "node review-page/build.mjs",
+    "review:rehearsal": "node review-page/build.mjs review-page/sample-responses.csv --date 2026-12-11",
+    "review:serve": "node review-page/serve.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",

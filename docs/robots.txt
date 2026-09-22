@@ -1,0 +1,7 @@
+# 검색 노출을 막기 위한 파일.
+# 주의: username.github.io/<레포>/ 형태의 프로젝트 페이지에서는 이 파일이
+# 사이트 루트가 아니라서 크롤러가 읽지 않는다. 실제로 노출을 막는 것은
+# 리뷰 페이지 <head> 의 <meta name="robots" content="noindex, nofollow"> 다.
+# 이 파일은 사용자/조직 페이지(username.github.io)로 옮길 경우를 대비해 둔다.
+User-agent: *
+Disallow: /
